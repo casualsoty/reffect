@@ -1,0 +1,1590 @@
+{
+  "schema": "v1",
+  "enabled": true,
+  "name": "soty",
+  "pos": [
+    0.0,
+    0.0
+  ],
+  "opacity": 1.0,
+  "trigger": {
+    "source": "Inherit",
+    "threshold": {
+      "threshold_type": "Always",
+      "amount_type": "Intensity"
+    }
+  },
+  "anchor": "Center",
+  "layer": 0,
+  "elements": [
+    {
+      "enabled": true,
+      "name": "Effects",
+      "pos": [
+        0.0,
+        450.0
+      ],
+      "opacity": 1.0,
+      "trigger": {
+        "source": "Inherit",
+        "threshold": {
+          "threshold_type": "Always",
+          "amount_type": "Intensity"
+        }
+      },
+      "filter": {
+        "player": {
+          "combat": null,
+          "specs": [],
+          "traits": [],
+          "mounts": []
+        },
+        "map": {
+          "category": [],
+          "whitelist": true,
+          "ids": []
+        }
+      },
+      "animation": null,
+      "type": "Group",
+      "members": [
+        {
+          "enabled": true,
+          "name": "Boons",
+          "pos": [
+            0.0,
+            -17.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "IconList",
+          "layout": "Dynamic",
+          "direction": "Horizontal",
+          "size": [
+            28.0,
+            34.0
+          ],
+          "pad": 0.0,
+          "icons": [
+            {
+              "enabled": true,
+              "name": "Might Present",
+              "trigger": {
+                "source": {
+                  "Buff": 740
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Present/Might.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Might Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 740
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Missing/Might.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Fury Present",
+              "trigger": {
+                "source": {
+                  "Buff": 725
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Present/Fury.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Fury Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 725
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Missing/Fury.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Quickness Present",
+              "trigger": {
+                "source": {
+                  "Buff": 1187
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Present/Quickness.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Quickness Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 1187
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Missing/Quickness.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Alacrity Present",
+              "trigger": {
+                "source": {
+                  "Buff": 30328
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Present/Alacrity.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Alacrity Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 30328
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Missing/Alacrity.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Protection Present",
+              "trigger": {
+                "source": {
+                  "Buff": 717
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Present/Protection.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Protection Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 717
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Missing/Protection.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Regeneration Present",
+              "trigger": {
+                "source": {
+                  "Buff": 718
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Present/Regeneration.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Regeneration Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 718
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Missing/Regeneration.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Vigor Present",
+              "trigger": {
+                "source": {
+                  "Buff": 726
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Present/Vigor.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Vigor Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 726
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Missing/Vigor.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Aegis Present",
+              "trigger": {
+                "source": {
+                  "Buff": 743
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Present/Aegis.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Aegis Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 743
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Missing/Aegis.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Swiftness Present",
+              "trigger": {
+                "source": {
+                  "Buff": 719
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Present/Swiftness.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Swiftness Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 719
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Missing/Swiftness.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Resistance Present",
+              "trigger": {
+                "source": {
+                  "Buff": 26980
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Present/Resistance.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Resistance Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 26980
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Missing/Resistance.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Resolution Present",
+              "trigger": {
+                "source": {
+                  "Buff": 873
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Present/Resolution.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Resolution Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 873
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Missing/Resolution.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Stability Present",
+              "trigger": {
+                "source": {
+                  "Buff": 1122
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Present/Stability.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Stability Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 1122
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Missing/Stability.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Conditions",
+          "pos": [
+            0.0,
+            17.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "IconList",
+          "layout": "Dynamic",
+          "direction": "Horizontal",
+          "size": [
+            28.0,
+            34.0
+          ],
+          "pad": 0.0,
+          "icons": [
+            {
+              "enabled": true,
+              "name": "Torment Present",
+              "trigger": {
+                "source": {
+                  "Buff": 19426
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Present/Torment.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Torment Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 19426
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Missing/Torment.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Weakness Present",
+              "trigger": {
+                "source": {
+                  "Buff": 742
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Present/Weakness.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Weakness Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 742
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Missing/Weakness.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Blinded Present",
+              "trigger": {
+                "source": {
+                  "Buff": 720
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Present/Blinded.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Blinded Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 720
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Missing/Blinded.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Slow Present",
+              "trigger": {
+                "source": {
+                  "Buff": 26766
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Present/Slow.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Slow Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 26766
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Missing/Slow.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Chilled Present",
+              "trigger": {
+                "source": {
+                  "Buff": 722
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Present/Chilled.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Chilled Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 722
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Missing/Chilled.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Vulnerability Present",
+              "trigger": {
+                "source": {
+                  "Buff": 738
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Present/Vulnerability.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Vulnerability Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 738
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Missing/Vulnerability.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Poisoned Present",
+              "trigger": {
+                "source": {
+                  "Buff": 723
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Present/Poisoned.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Poisoned Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 723
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Missing/Poisoned.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Bleeding Present",
+              "trigger": {
+                "source": {
+                  "Buff": 736
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Present/Bleeding.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Bleeding Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 736
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Missing/Bleeding.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Burning Present",
+              "trigger": {
+                "source": {
+                  "Buff": 737
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Present/Burning.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Burning Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 737
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Missing/Burning.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Crippled Present",
+              "trigger": {
+                "source": {
+                  "Buff": 721
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Present/Crippled.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Crippled Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 721
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Missing/Crippled.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Immobile Present",
+              "trigger": {
+                "source": {
+                  "Buff": 727
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Present/Immobile.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Immobile Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 727
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Missing/Immobile.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Confusion Present",
+              "trigger": {
+                "source": {
+                  "Buff": 861
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Present/Confusion.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Confusion Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 861
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Missing/Confusion.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Fear Present",
+              "trigger": {
+                "source": {
+                  "Buff": 791
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Present/Fear.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Fear Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 791
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Missing/Fear.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Taunt Present",
+              "trigger": {
+                "source": {
+                  "Buff": 27705
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Present/Taunt.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Taunt Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 27705
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Conditions/Missing/Taunt.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
