@@ -1,10 +1,10 @@
 {
   "schema": "v1",
   "enabled": true,
-  "name": "soty",
+  "name": "Fixed Effects",
   "pos": [
     0.0,
-    0.0
+    400.0
   ],
   "opacity": 1.0,
   "trigger": {
@@ -22,7 +22,7 @@
       "name": "Effects",
       "pos": [
         0.0,
-        450.0
+        0.0
       ],
       "opacity": 1.0,
       "trigger": {
@@ -53,7 +53,7 @@
           "name": "Boons",
           "pos": [
             0.0,
-            -17.0
+            -34.0
           ],
           "opacity": 1.0,
           "trigger": {
@@ -81,11 +81,67 @@
           "layout": "Dynamic",
           "direction": "Horizontal",
           "size": [
-            28.0,
+            32.0,
             34.0
           ],
           "pad": 0.0,
           "icons": [
+            {
+              "enabled": true,
+              "name": "Stealth Present",
+              "trigger": {
+                "source": {
+                  "Buff": 13017
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Present/Stealth.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Stealth Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 13017
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Missing/Stealth.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
             {
               "enabled": true,
               "name": "Might Present",
@@ -757,6 +813,835 @@
               "duration_bar": true,
               "duration_text": false,
               "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Superspeed Present",
+              "trigger": {
+                "source": {
+                  "Buff": 5974
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Present/Superspeed.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Superspeed Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 5974
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Boons/Missing/Superspeed.png"
+              },
+              "tint": [
+                1.0,
+                0.99999,
+                0.99999,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            }
+          ]
+        },
+        {
+          "enabled": true,
+          "name": "Warrior",
+          "pos": [
+            0.0,
+            0.0
+          ],
+          "opacity": 1.0,
+          "trigger": {
+            "source": "Inherit",
+            "threshold": {
+              "threshold_type": "Always",
+              "amount_type": "Intensity"
+            }
+          },
+          "filter": {
+            "player": {
+              "combat": null,
+              "specs": [
+                "Warrior",
+                "Berserker",
+                "Spellbreaker",
+                "Bladesworn"
+              ],
+              "traits": [],
+              "mounts": []
+            },
+            "map": {
+              "category": [],
+              "whitelist": true,
+              "ids": []
+            }
+          },
+          "animation": null,
+          "type": "IconList",
+          "layout": "Dynamic",
+          "direction": "Horizontal",
+          "size": [
+            32.0,
+            34.0
+          ],
+          "pad": 2.0,
+          "icons": [
+            {
+              "enabled": true,
+              "name": "Peak Performance Present",
+              "trigger": {
+                "source": {
+                  "Buff": 46853
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Present/Peak_Performance.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Peak Performance Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 46853
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Missing/Peak_Performance.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Berserker's Power Present",
+              "trigger": {
+                "source": {
+                  "Buff": 42539
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Present/Berserker's_Power.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Berserker's Power Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 42539
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Missing/Berserker's_Power.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Signet of Ferocity Present",
+              "trigger": {
+                "source": {
+                  "Buff": 41922
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Present/Signet_Mastery.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Signet of Ferocity Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 41922
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Missing/Signet_Mastery.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Burst Precision Present",
+              "trigger": {
+                "source": {
+                  "Buff": 44412
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Present/Burst_Precision.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Burst Precision Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 44412
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Missing/Burst_Precision.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Furious Present",
+              "trigger": {
+                "source": {
+                  "Buff": 30204
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Present/Furious.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Furious Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 30204
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Missing/Furious.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Adrenal Health Present",
+              "trigger": {
+                "source": {
+                  "Buff": 34766
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Present/Adrenal_Health.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Adrenal Health Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 34766
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Missing/Adrenal_Health.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Marching Orders Present",
+              "trigger": {
+                "source": {
+                  "Buff": 58102
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Present/Marching_Orders_(trait).png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Marching Orders Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 58102
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Missing/Marching_Orders_(trait).png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Heightened Focus Present",
+              "trigger": {
+                "source": {
+                  "Buff": 72970
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Present/Heightened_Focus.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Heightened Focus Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 72970
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Missing/Heightened_Focus.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Savage Instinct Present",
+              "trigger": {
+                "source": {
+                  "Buff": 55030
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Present/Savage_Instinct.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Savage Instinct Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 55030
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Missing/Savage_Instinct.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Attacker's Insight Present",
+              "trigger": {
+                "source": {
+                  "Buff": 41963
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Present/Attacker's_Insight.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Attacker's Insight Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 41963
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Missing/Attacker's_Insight.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Fierce as Fire Present",
+              "trigger": {
+                "source": {
+                  "Buff": 63433
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Present/Fierce_as_Fire.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Fierce as Fire Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 63433
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Missing/Fierce_as_Fire.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Guns and Glory Present",
+              "trigger": {
+                "source": {
+                  "Buff": 62743
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Present/Guns_and_Glory.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Guns and Glory Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 62743
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Missing/Guns_and_Glory.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
+            },
+            {
+              "enabled": true,
+              "name": "Positive Flow Present",
+              "trigger": {
+                "source": {
+                  "Buff": 62836
+                },
+                "threshold": {
+                  "threshold_type": "Present",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Present/Positive_Flow.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": true
+            },
+            {
+              "enabled": true,
+              "name": "Positive Flow Missing",
+              "trigger": {
+                "source": {
+                  "Buff": 62836
+                },
+                "threshold": {
+                  "threshold_type": "Missing",
+                  "amount_type": "Intensity"
+                }
+              },
+              "icon": {
+                "Url": "https://raw.githubusercontent.com/casualsoty/reffect/main/Effects/Warrior/Missing/Positive_Flow.png"
+              },
+              "tint": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "zoom": 1.0,
+              "round": 0.0,
+              "conditions": [],
+              "duration_bar": true,
+              "duration_text": false,
+              "stacks_text": false
             }
           ]
         },
@@ -765,7 +1650,7 @@
           "name": "Conditions",
           "pos": [
             0.0,
-            17.0
+            34.0
           ],
           "opacity": 1.0,
           "trigger": {
@@ -793,7 +1678,7 @@
           "layout": "Dynamic",
           "direction": "Horizontal",
           "size": [
-            28.0,
+            32.0,
             34.0
           ],
           "pad": 0.0,
@@ -1440,7 +2325,7 @@
               "conditions": [],
               "duration_bar": true,
               "duration_text": false,
-              "stacks_text": false
+              "stacks_text": true
             },
             {
               "enabled": true,
